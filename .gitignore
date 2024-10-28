@@ -1,0 +1,197 @@
+# ----------------------------------------
+# C#
+# ----------------------------------------
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.appx
+*.appxsym
+*.userosscache
+*.suo
+*.psess
+*.vspx
+*.log
+*.user
+*.ipch
+*.aps
+*.orig
+*.rsuser
+.vscode/
+.vs/
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# ----------------------------------------
+# Java
+# ----------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.classpath
+*.project
+*.settings/
+target/
+out/
+
+# Eclipse files
+*.metadata/
+*.recommenders/
+*.bak/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Maven
+target/
+*.mvn/
+
+# Gradle
+.gradle/
+build/
+.gradle-cache/
+!gradle-wrapper.jar
+
+# ----------------------------------------
+# JavaScript / Node.js
+# ----------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.cjs
+.pnp.loader.mjs
+
+# Logs
+logs/
+*.log
+
+# Test coverage
+coverage/
+
+# Webpack
+.webpack/
+
+# Temp files
+tmp/
+temp/
+
+# ----------------------------------------
+# React.js
+# ----------------------------------------
+build/
+*.env
+.eslintcache
+*.babelrc
+.cache/
+public/
+.vscode/
+
+# ----------------------------------------
+# Terraform
+# ----------------------------------------
+*.tfstate
+*.tfstate.*
+.crash
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars.json
+
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage and testing
+.coverage
+.tox/
+.cache/
+pytest_cache/
+htmlcov/
+
+# ----------------------------------------
+# Ansible
+# ----------------------------------------
+*.retry
+.secret/
+roles/*/files/
+roles/*/templates/
+inventory/
+group_vars/
+host_vars/
+.credentials/
+
+# Ansible Vault
+*.vault_pass.txt
+
+# ----------------------------------------
+# General
+# ----------------------------------------
+*.DS_Store
+*.swp
+Thumbs.db
+
+# ----------------------------------------
+# Terraform
+# ----------------------------------------
+
+# State files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+*.crash
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform configuration lock file
+.terraform.lock.hcl
+
+# Local .terraform directories
+.terraform/
+
+# Override files used for local-only configuration
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Custom environment variable files (common for secrets)
+.env
+*.env.*
+
+# Sensitive or custom credential files
+.terraformrc
+.terraform
+terraform.rc
+.credentials/
+
+# Plan output files (if used)
+*.plan
+
+# Ignored for remote state storage setup
+terraform.tfstate.backup
