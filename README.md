@@ -1,3 +1,13 @@
+###  Sample Applications for below Runtimes/SDKs:
+- .NET 8.0.4
+- Java 17.0.12
+- Python 3.11.2
+- Node.js 23.1.0
+- npm 10.9.0
+- React.js
+- Terraform 1.9.8
+- Ansible 2.14.16
+
 01 How to run a .NET web application?
 ```
 dotnet run
