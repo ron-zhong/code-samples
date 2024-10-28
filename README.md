@@ -1,4 +1,4 @@
-###  Sample Applications for below Runtimes/SDKs:
+###  Sample code for below runtimes/SDKs:
 - .NET 8.0.4
 - Java 17.0.12
 - Python 3.11.2
