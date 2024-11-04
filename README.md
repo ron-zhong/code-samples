@@ -27,11 +27,13 @@ python3 app.py
 
 04 How to run a Node.js web application?
 ```
+npm install express
 node app.js
 ```
 
 05 How to run a React.js web application?
 ```
+npm install
 npm start
 ```
 
