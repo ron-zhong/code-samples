@@ -93,7 +93,6 @@ build/
 .eslintcache
 *.babelrc
 .cache/
-public/
 .vscode/
 
 # ----------------------------------------
