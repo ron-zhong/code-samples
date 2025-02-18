@@ -1,0 +1,17 @@
+schemaVersion: 2.3.0
+metadata:
+  name: code-samples-ca3f
+  namespace: ron-zhong-dev
+attributes:
+  controller.devfile.io/bootstrap-devworkspace: true
+projects:
+  - name: code-samples
+    git:
+      remotes:
+        origin: https://github.com/ron-zhong/code-samples.git
+components:
+  - container:
+      image: quay.io/ron-zhong/udi-rhl8:latest
+      memoryLimit: 4Gi
+      cpuLimit: '2'
+    name: universal-developer-image
